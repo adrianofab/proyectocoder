@@ -1,0 +1,173 @@
+/* IMPORTAMOS FUENTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* ESTILOS INDEX.HTML */
+
+/* HEADER */
+
+.header{
+    background-color: #ffffffe5;
+    text-align: center;
+
+}
+
+.cajaLogo {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+text-align: center;
+}
+
+ul {
+    display: inline-block
+
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    list-style: none;
+   
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+color: white;
+text-decoration: underline;
+}
+
+nav {
+    text-align: end;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+.cajaTitle {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+}
+
+.cajaTitle h1 {
+    font-size: 3rem;
+    color:black;
+}
+
+
+
+.cajaImagen {
+text-align: center;
+}
+
+.cajaImagen img {
+    padding: 0 1rem;
+}
+.cajaBtn {
+    text-align: center;
+}
+
+.cajaBtn a {
+    font-size: 1rem;
+   font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #680505;
+    text-align: center;
+}
+
+.footer h3 {
+   padding-top: 0.5rem;
+   color:white;
+}
+.listaRedes {
+    margin: 0.5rem 0 0 0;
+}
+
+.listaRedes .logoIg, .logoFb {
+width: 30px;
+
+}
+
+.navFooter {
+    display: block;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+/* ESTILOS MARCAS.HTML */
+
+.cajaParafo1 {
+    display: inline-block;
+    width: 60%;
+    padding: 2rem;
+    vertical-align: middle;
+}
+.cajaParafo1 h2{
+    font-size: 2rem;
+ }
+.cajaParafo1 p{
+   font-size: 1.5rem;
+}
+
+
+.cajaImg1 {
+    display: inline;
+    margin: 2rem;
+    vertical-align: middle;
+
+}
+
+.cajaImg1 img {
+  
+    margin: 2rem;
+
+}
+
+
+.cajaParafo2 {
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+    vertical-align: middle;
+}
+.cajaParafo2 h2{
+    font-size: 4rem;
+ }
+.cajaParafo2 p{
+   font-size: 2rem;
+}
+
+
+.cajaImg2 {
+    display: inline;
+    margin: 2rem;
+    vertical-align: middle;
+
+}
+
+.cajaImg2 img {
+  
+    margin: 2rem;
+
+}
